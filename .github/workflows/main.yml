@@ -1,0 +1,39 @@
+name: Update Advent of Code calendar
+
+on:
+  schedule:
+    - cron: '0 6 1-25 12 *'
+  workflow_dispatch:
+
+jobs:
+  update_calendar:
+    name: Update calendar
+    runs-on: ubuntu-latest
+    steps:
+      - name: Get current date
+        shell: bash
+        run: echo "day=$(date +%d)" >> $GITHUB_ENV
+
+      - name: Checkout
+        uses: actions/checkout@v2.5.0
+
+      - name: Fetch puzzle input and convert to Markdown
+        id: pandoc
+        uses: edoardob90/pandoc-docker-action@v3
+        with:
+          dest: "README.md"
+          year: "2022"
+          day: ${{ env.day }}
+
+      - name: Update README calendar
+        shell: bash
+        run: ./.github/workflows/update_calendar.sh ${{ env.day }}
+
+      - name: Push to repo
+        shell: bash
+        run: |
+          git config --global user.name "edoardob90"
+          git config --global user.email "edoardob90@gmail"
+          git add -A
+          git commit -m "Update calendar: day ${{ env.day }}"
+          git push
