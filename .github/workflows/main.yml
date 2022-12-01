@@ -19,7 +19,7 @@ jobs:
 
       - name: Fetch puzzle input and convert to Markdown
         id: pandoc
-        uses: edoardob90/pandoc-docker-action@v5
+        uses: edoardob90/pandoc-docker-action@v5.1
         with:
           dest: "README.md"
           year: "2022"
