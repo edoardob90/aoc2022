@@ -12,14 +12,14 @@ jobs:
     steps:
       - name: Get current date
         shell: bash
-        run: echo "day=$(date +%d)" >> $GITHUB_ENV
+        run: echo "day=$(date +%-d)" >> $GITHUB_ENV
 
       - name: Checkout
         uses: actions/checkout@v3
 
       - name: Fetch puzzle input and convert to Markdown
         id: pandoc
-        uses: edoardob90/pandoc-docker-action@v4
+        uses: edoardob90/pandoc-docker-action@v5
         with:
           dest: "README.md"
           year: "2022"
@@ -33,7 +33,7 @@ jobs:
         shell: bash
         run: |
           git config --global user.name "edoardob90"
-          git config --global user.email "edoardob90@gmail"
+          git config --global user.email "edoardob90@gmail.com"
           git add -A
           git commit -m "Update calendar: day ${{ env.day }}"
           git push
