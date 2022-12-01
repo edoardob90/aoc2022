@@ -13,4 +13,3 @@ As the inputs are different for each user, use the `input.txt` files in each day
 
 Day | Solution | Notes
 --- | --- | ---
-01 - [](https://adventofcode.com/2022/day/01) |  |  
