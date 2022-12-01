@@ -15,11 +15,11 @@ jobs:
         run: echo "day=$(date +%d)" >> $GITHUB_ENV
 
       - name: Checkout
-        uses: actions/checkout@v2.5.0
+        uses: actions/checkout@v3
 
       - name: Fetch puzzle input and convert to Markdown
         id: pandoc
-        uses: edoardob90/pandoc-docker-action@v3
+        uses: edoardob90/pandoc-docker-action@v4
         with:
           dest: "README.md"
           year: "2022"
