@@ -14,4 +14,4 @@ As the inputs are different for each user, use the `input.txt` files in each day
 Day | Solution | Notes
 --- | --- | ---
 1 - [Calorie Counting](https://adventofcode.com/2022/day/1) | ⭐⭐ [1.py](/1/1.py) | <a href="https://edobld.me/day-1-calorie-counting/" target="_blank">Blog post</a>
-2 - [Rock Paper Scissors](https://adventofcode.com/2022/day/2) |  |  
+2 - [Rock Paper Scissors](https://adventofcode.com/2022/day/2) |  ⭐⭐ [2.py](/2/2.py) | [Blog post](https://edobld.me/day-2-rock-paper-scissors/)
