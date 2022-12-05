@@ -17,4 +17,4 @@ Day | Solution | Notes
 2 - [Rock Paper Scissors](https://adventofcode.com/2022/day/2) |  ⭐⭐ [2.py](/2/2.py) | [Blog post](https://edobld.me/day-2-rock-paper-scissors/)
 3 - [Rucksack Reorganization](https://adventofcode.com/2022/day/3) | ⭐⭐ [3.py](3/3.py) | [Blog post](https://edobld.me/day-3-rucksack-reorganization/)
 4 - [Camp Cleanup](https://adventofcode.com/2022/day/4) | ⭐⭐ [4.py](/4/4.py) | [Blog post](https://edobld.me/day-4-camp-cleanup/)  
-5 - [Supply Stacks](https://adventofcode.com/2022/day/5) |  |  
+5 - [Supply Stacks](https://adventofcode.com/2022/day/5) | ⭐⭐ [5.py](/5/5.py) | [Blog post](https://edobld.me/day-5-supply-stacks/) 
