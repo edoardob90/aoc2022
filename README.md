@@ -18,3 +18,4 @@ Day | Solution | Notes
 3 - [Rucksack Reorganization](https://adventofcode.com/2022/day/3) | ⭐⭐ [3.py](3/3.py) | [Blog post](https://edobld.me/day-3-rucksack-reorganization/)
 4 - [Camp Cleanup](https://adventofcode.com/2022/day/4) | ⭐⭐ [4.py](/4/4.py) | [Blog post](https://edobld.me/day-4-camp-cleanup/)  
 5 - [Supply Stacks](https://adventofcode.com/2022/day/5) | ⭐⭐ [5.py](/5/5.py) | [Blog post](https://edobld.me/day-5-supply-stacks/) 
+6 - [Tuning Trouble](https://adventofcode.com/2022/day/6) |  |  
