@@ -8,7 +8,7 @@ from collections import defaultdict
 
 
 def parse(puzzle_input):
-    """Parsei nput"""
+    """Parse input"""
     paths = []
     sizes = defaultdict(int)
     for line in puzzle_input.splitlines():
