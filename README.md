@@ -20,3 +20,4 @@ Day | Solution | Notes
 5 - [Supply Stacks](https://adventofcode.com/2022/day/5) | ⭐⭐ [5.py](/5/5.py) | [Blog post](https://edobld.me/day-5-supply-stacks/) 
 6 - [Tuning Trouble](https://adventofcode.com/2022/day/6) | ⭐⭐ [6.py](/6/6.py) | [Blog post](https://edobld.me/day-6-tuning-trouble/)
 7 - [No Space Left On Device](https://adventofcode.com/2022/day/7) | ⭐⭐ [7.py](/7/7.py) | [Blog post](https://edobld.me/day-7-no-space-left-on-device/) 
+8 - [Treetop Tree House](https://adventofcode.com/2022/day/8) | [8.py](/8/8.py) | [Blog post](https://edobld.me) 
