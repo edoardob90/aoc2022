@@ -21,4 +21,4 @@ Day | Solution | Notes
 6 - [Tuning Trouble](https://adventofcode.com/2022/day/6) | ⭐⭐ [6.py](/6/6.py) | [Blog post](https://edobld.me/day-6-tuning-trouble/)
 7 - [No Space Left On Device](https://adventofcode.com/2022/day/7) | ⭐⭐ [7.py](/7/7.py) | [Blog post](https://edobld.me/day-7-no-space-left-on-device/)
 8 - [Treetop Tree House](https://adventofcode.com/2022/day/8) | ⭐⭐ [Wolfram solution](/8/8.wls) | [Blog post](https://edobld.me/day-8-treetop-tree-house/) 
-9 - [Rope Bridge](https://adventofcode.com/2022/day/9) | ⭐⭐ [9.py](/9/9.py) | [Blog post](https://edobld.me) 
+9 - [Rope Bridge](https://adventofcode.com/2022/day/9) | ⭐⭐ [9.py](/9/9.py) | [Blog post](https://edobld.me/day-9-rope-bridge/)
