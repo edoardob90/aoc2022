@@ -13,12 +13,12 @@ As the inputs are different for each user, use the `input.txt` files in each day
 
 Day | Solution | Notes
 --- | --- | ---
-1 - [Calorie Counting](https://adventofcode.com/2022/day/1) | ⭐⭐ [1.py](/1/1.py) | <a href="https://edobld.me/day-1-calorie-counting/" target="_blank">Blog post</a>
+1 - [Calorie Counting](https://adventofcode.com/2022/day/1) | ⭐⭐ [1.py](/1/1.py) | [Blog post](https://edobld.me/day-1-calorie-counting/)
 2 - [Rock Paper Scissors](https://adventofcode.com/2022/day/2) |  ⭐⭐ [2.py](/2/2.py) | [Blog post](https://edobld.me/day-2-rock-paper-scissors/)
 3 - [Rucksack Reorganization](https://adventofcode.com/2022/day/3) | ⭐⭐ [3.py](3/3.py) | [Blog post](https://edobld.me/day-3-rucksack-reorganization/)
 4 - [Camp Cleanup](https://adventofcode.com/2022/day/4) | ⭐⭐ [4.py](/4/4.py) | [Blog post](https://edobld.me/day-4-camp-cleanup/)  
 5 - [Supply Stacks](https://adventofcode.com/2022/day/5) | ⭐⭐ [5.py](/5/5.py) | [Blog post](https://edobld.me/day-5-supply-stacks/) 
 6 - [Tuning Trouble](https://adventofcode.com/2022/day/6) | ⭐⭐ [6.py](/6/6.py) | [Blog post](https://edobld.me/day-6-tuning-trouble/)
-7 - [No Space Left On Device](https://adventofcode.com/2022/day/7) | ⭐⭐ [7.py](/7/7.py) | [Blog post](https://edobld.me/day-7-no-space-left-on-device/) 
-8 - [Treetop Tree House](https://adventofcode.com/2022/day/8) | ⭐⭐ Wolfram solution | [Blog post](https://edobld.me/day-8-treetop-tree-house/) 
-9 - [Rope Bridge](https://adventofcode.com/2022/day/9) | [9.py](/9/9.py) | [Blog post](https://edobld.me) 
+7 - [No Space Left On Device](https://adventofcode.com/2022/day/7) | ⭐⭐ [7.py](/7/7.py) | [Blog post](https://edobld.me/day-7-no-space-left-on-device/)
+8 - [Treetop Tree House](https://adventofcode.com/2022/day/8) | ⭐⭐ [Wolfram solution](/8/8.wls) | [Blog post](https://edobld.me/day-8-treetop-tree-house/) 
+9 - [Rope Bridge](https://adventofcode.com/2022/day/9) | ⭐⭐ [9.py](/9/9.py) | [Blog post](https://edobld.me) 
