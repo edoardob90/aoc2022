@@ -5,6 +5,19 @@
 import pathlib
 import sys
 import re
+from functools import partial
+from math import prod
+
+
+def op(arg, operand=None, op_type=None):
+    """Define operation"""
+    if not operand:
+        return arg**2
+    if op_type == "*":
+        return arg * int(operand)
+    if op_type == "+":
+        return arg + int(operand)
+    return None
 
 
 def parse(puzzle_input):
@@ -18,32 +31,40 @@ def parse(puzzle_input):
     for monkey in puzzle_input:
         if match := monkey_re.match(monkey.strip()):
             props = match.groupdict()
-            props["items"] = list(map(int, props["items"].split(", ")))
             idx = props.pop("idx")
+            # re-arrange items to be a list of int
+            props["items"] = list(map(int, props["items"].split(", ")))
+            # exctract the operation
+            _op = props.pop("op").split()
+            if _op[0] == _op[-1]:
+                op_type = operand = None
+            else:
+                operand = _op[2]
+                op_type = _op[1]
+            # create a new monkey
             monkeys[idx] = props
+            monkeys[idx]["op"] = partial(op, operand=operand, op_type=op_type)
             monkeys[idx]["count"] = 0
 
     return monkeys
 
 
-def monkey_turn(monkeys, relief=None):
+def monkey_turn(monkeys, part, divisors):
     """Run a monkey game round"""
-    for i, monkey in monkeys.items():
-        # operation
-        func_str = f"""def op(old):
-            return {monkey['op']}"""
-        exec(func_str, globals())
-        func = globals()["op"]
-
-        while items := monkey["items"]:
+    for monkey in monkeys.values():
+        while monkey["items"]:
             monkey["count"] += 1
             # perform the operation
-            item = items.pop(0)
-            if relief:
-                item = func(item) // relief
+            item = monkey["op"](monkey["items"].pop(0))
+            if part == 1:
+                # Part 1
+                item //= 3
+            elif part == 2:
+                # Part 2
+                item %= divisors
             # test and send item
-            true, false = monkey["true"], monkey["false"]
-            if item % int(monkey["test"]) == 0:
+            test, true, false = monkey["test"], monkey["true"], monkey["false"]
+            if item % int(test) == 0:
                 monkeys[true]["items"].append(item)
             else:
                 monkeys[false]["items"].append(item)
@@ -51,33 +72,44 @@ def monkey_turn(monkeys, relief=None):
     return monkeys
 
 
-def run_game(monkeys, rounds=20):
+def run_game(monkeys, rounds=20, part=1):
     """Run a game"""
-    for _ in range(rounds):
-        monkeys = monkey_turn(monkeys)
-    return monkeys
+    divisors = prod([int(m["test"]) for m in monkeys.values()])
+    counts = []
+    for i in range(rounds):
+        monkeys = monkey_turn(monkeys, part, divisors)
+
+        # Debug print
+        if i in (1, 10, 20) or (i > 0 and i % 1000 == 0):
+            print(f"== After round {i} ==")
+            # print(monkeys)
+            for j, monkey in monkeys.items():
+                print(f"Monkey {j} inspected items {monkey['count']} times")
+
+    for monkey in monkeys.values():
+        counts.append(monkey["count"])
+
+    a, b = sorted(counts, reverse=True)[:2]
+
+    return a * b
 
 
 def part1(data):
     """Solve part 1"""
-    data = run_game(data, 20)
-    counts = []
-    for monkey in data.values():
-        counts.append(monkey["count"])
-    a, b = sorted(counts, reverse=True)[:2]
-    return a * b
+    print("=== PART 1 ===")
+    return run_game(data, 20, part=1)
 
 
 def part2(data):
     """Solve part 2"""
-    return None
+    print("=== PART 2 ===")
+    return run_game(data, 10_000, part=2)
 
 
 def solve(puzzle_input):
     """Solve the puzzle for the given input"""
-    data = parse(puzzle_input)
-    solution1 = part1(data)
-    solution2 = part2(data)
+    solution1 = part1(parse(puzzle_input))
+    solution2 = part2(parse(puzzle_input))
 
     return solution1, solution2
 

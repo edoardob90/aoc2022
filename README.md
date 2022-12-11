@@ -23,4 +23,4 @@ Day | Solution | Notes
 8 - [Treetop Tree House](https://adventofcode.com/2022/day/8) | ⭐⭐ [Wolfram solution](/08/8.wls) | [Blog post](https://edobld.me/day-8-treetop-tree-house/) 
 9 - [Rope Bridge](https://adventofcode.com/2022/day/9) | ⭐⭐ [9.py](/09/9.py) | [Blog post](https://edobld.me/day-9-rope-bridge/)
 10 - [Cathode-Ray Tube](https://adventofcode.com/2022/day/10) | ⭐⭐ [10.py](/10/10.py) | [Blog post](https://edobld.me/day-10-cathode-ray-tube/) 
-11 - [Monkey in the Middle](https://adventofcode.com/2022/day/11) | ⭐ [11.py](/11/11.py) | [Blog post](https://edobld.me) 
+11 - [Monkey in the Middle](https://adventofcode.com/2022/day/11) | ⭐⭐ [11.py](/11/11.py) | [Blog post](https://edobld.me) 
