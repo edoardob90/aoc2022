@@ -24,3 +24,4 @@ Day | Solution | Notes
 9 - [Rope Bridge](https://adventofcode.com/2022/day/9) | ⭐⭐ [9.py](/09/9.py) | [Blog post](https://edobld.me/day-9-rope-bridge/)
 10 - [Cathode-Ray Tube](https://adventofcode.com/2022/day/10) | ⭐⭐ [10.py](/10/10.py) | [Blog post](https://edobld.me/day-10-cathode-ray-tube/) 
 11 - [Monkey in the Middle](https://adventofcode.com/2022/day/11) | ⭐⭐ [11.py](/11/11.py) | [Blog post](https://edobld.me) 
+12 - [Hill Climbing Algorithm](https://adventofcode.com/2022/day/12) | [12.py](/12/12.py) | [Blog post](https://edobld.me) 
