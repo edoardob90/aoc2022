@@ -23,7 +23,11 @@ def op(arg, operand=None, op_type=None):
 def parse(puzzle_input):
     """Parse input"""
     monkey_re = re.compile(
-        r"Monkey (?P<idx>\d+):\n\s+Starting items: (?P<items>.*?)\n\s+Operation: new = (?P<op>.*?)\n\s+Test: divisible by (?P<test>\d+)\n\s.*true.*?(?P<true>\d+).*?(?P<false>\d+)",
+        r"Monkey (?P<idx>\d+):\n"
+        r"\s+Starting items: (?P<items>.*?)\n"
+        r"\s+Operation: new = (?P<op>.*?)\n\s"
+        r"+Test: divisible by (?P<test>\d+)\n"
+        r"\s.*true.*?(?P<true>\d+).*?(?P<false>\d+)",
         re.MULTILINE | re.DOTALL,
     )
     monkeys = {}
@@ -76,15 +80,8 @@ def run_game(monkeys, rounds=20, part=1):
     """Run a game"""
     divisors = prod([int(m["test"]) for m in monkeys.values()])
     counts = []
-    for i in range(rounds):
+    for _ in range(rounds):
         monkeys = monkey_turn(monkeys, part, divisors)
-
-        # Debug print
-        if i in (1, 10, 20) or (i > 0 and i % 1000 == 0):
-            print(f"== After round {i} ==")
-            # print(monkeys)
-            for j, monkey in monkeys.items():
-                print(f"Monkey {j} inspected items {monkey['count']} times")
 
     for monkey in monkeys.values():
         counts.append(monkey["count"])
@@ -96,13 +93,11 @@ def run_game(monkeys, rounds=20, part=1):
 
 def part1(data):
     """Solve part 1"""
-    print("=== PART 1 ===")
     return run_game(data, 20, part=1)
 
 
 def part2(data):
     """Solve part 2"""
-    print("=== PART 2 ===")
     return run_game(data, 10_000, part=2)
 
 
