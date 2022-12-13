@@ -8,6 +8,17 @@ Each folder corresponds to a day of the calendar and, in each folder, the `READM
 
 As the inputs are different for each user, use the `input.txt` files in each day's folder only if you want to test your solution against my inputs.
 
+<details><summary>Note on Languages</summary>
+<p>
+
+I will mostly use Python to solve the puzzles. Just for fun, I might also try to find a solution with the Wolfram Language.
+
+- `.py` links to my Python solution
+- `.wls` links to a Wolframscript file. Needs an <a href="https://www.wolfram.com/wolframscript/">intepreter</a> to run
+
+</p>
+</details>
+
 
 ## Calendar 📆
 
@@ -20,9 +31,9 @@ Day | Solution | Notes
 5 - [Supply Stacks](https://adventofcode.com/2022/day/5) | ⭐⭐ [5.py](/05/5.py) | [Blog post](https://edobld.me/day-5-supply-stacks/) 
 6 - [Tuning Trouble](https://adventofcode.com/2022/day/6) | ⭐⭐ [6.py](/06/6.py) | [Blog post](https://edobld.me/day-6-tuning-trouble/)
 7 - [No Space Left On Device](https://adventofcode.com/2022/day/7) | ⭐⭐ [7.py](/07/7.py) | [Blog post](https://edobld.me/day-7-no-space-left-on-device/)
-8 - [Treetop Tree House](https://adventofcode.com/2022/day/8) | ⭐⭐ [Wolfram solution](/08/8.wls) | [Blog post](https://edobld.me/day-8-treetop-tree-house/) 
+8 - [Treetop Tree House](https://adventofcode.com/2022/day/8) | ⭐⭐ [8.wls](/08/8.wls) | [Blog post](https://edobld.me/day-8-treetop-tree-house/) 
 9 - [Rope Bridge](https://adventofcode.com/2022/day/9) | ⭐⭐ [9.py](/09/9.py) | [Blog post](https://edobld.me/day-9-rope-bridge/)
 10 - [Cathode-Ray Tube](https://adventofcode.com/2022/day/10) | ⭐⭐ [10.py](/10/10.py) | [Blog post](https://edobld.me/day-10-cathode-ray-tube/) 
 11 - [Monkey in the Middle](https://adventofcode.com/2022/day/11) | ⭐⭐ [11.py](/11/11.py) | [Blog post](https://edobld.me/day-11-monkey-in-the-middle/)
-12 - [Hill Climbing Algorithm](https://adventofcode.com/2022/day/12) | ⭕ [12.py](/12/12.py) | [Blog post](https://edobld.me) 
+12 - [Hill Climbing Algorithm](https://adventofcode.com/2022/day/12) | ⭕⭕ | 
 13 - [Distress Signal](https://adventofcode.com/2022/day/13) | ⭐⭐ [13.py](/13/13.py) | [Blog post](https://edobld.me/day-13-distress-signal/) 
