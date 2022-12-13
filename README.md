@@ -25,4 +25,4 @@ Day | Solution | Notes
 10 - [Cathode-Ray Tube](https://adventofcode.com/2022/day/10) | ⭐⭐ [10.py](/10/10.py) | [Blog post](https://edobld.me/day-10-cathode-ray-tube/) 
 11 - [Monkey in the Middle](https://adventofcode.com/2022/day/11) | ⭐⭐ [11.py](/11/11.py) | [Blog post](https://edobld.me/day-11-monkey-in-the-middle/)
 12 - [Hill Climbing Algorithm](https://adventofcode.com/2022/day/12) | ⭕ [12.py](/12/12.py) | [Blog post](https://edobld.me) 
-13 - [Distress Signal](https://adventofcode.com/2022/day/13) | [13.py](/13/13.py) | [Blog post](https://edobld.me) 
+13 - [Distress Signal](https://adventofcode.com/2022/day/13) | ⭐⭐ [13.py](/13/13.py) | [Blog post](https://edobld.me/day-13-distress-signal/) 
