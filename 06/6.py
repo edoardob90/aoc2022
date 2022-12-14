@@ -15,7 +15,7 @@ def partition(l, n, d=None, upto=True):
     """Generate sublists of `l` with length up to `n` and offset `d`"""
     offset = d or n
     return [
-        lx for i in range(0, len(l), offset) if upto or len(lx := l[i : i + n]) == n
+        l[i : i + n] for i in range(0, len(l), offset) if upto or len(l[i : i + n]) == n
     ]
 
 
