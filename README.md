@@ -37,4 +37,4 @@ Day | Solution | Notes
 11 - [Monkey in the Middle](https://adventofcode.com/2022/day/11) | ⭐⭐ [11.py](/11/11.py) | [Blog post](https://blog.edoardob.im/day-11-monkey-in-the-middle/)
 12 - [Hill Climbing Algorithm](https://adventofcode.com/2022/day/12) | ⭕⭕ | 
 13 - [Distress Signal](https://adventofcode.com/2022/day/13) | ⭐⭐ [13.py](/13/13.py) | [Blog post](https://blog.edoardob.im/day-13-distress-signal/) 
-14 - [Regolith Reservoir](https://adventofcode.com/2022/day/14) | ⭕⭕ | 
+14 - [Regolith Reservoir](https://adventofcode.com/2022/day/14) | ⭕⭕ | [Blog post](https://blog.edoardob.im/day-14-regolith-reservoir/)
