@@ -35,7 +35,7 @@ Day | Solution | Notes
 9 - [Rope Bridge](https://adventofcode.com/2022/day/9) | ⭐⭐ [9.py](/09/9.py) | [Blog post](https://blog.edoardob.im/day-9-rope-bridge/)
 10 - [Cathode-Ray Tube](https://adventofcode.com/2022/day/10) | ⭐⭐ [10.py](/10/10.py) | [Blog post](https://blog.edoardob.im/day-10-cathode-ray-tube/) 
 11 - [Monkey in the Middle](https://adventofcode.com/2022/day/11) | ⭐⭐ [11.py](/11/11.py) | [Blog post](https://blog.edoardob.im/day-11-monkey-in-the-middle/)
-12 - [Hill Climbing Algorithm](https://adventofcode.com/2022/day/12) | ⭕⭕ | [Blog post](https://blog.edoardob.im/blog/?q=aoc22)
+12 - [Hill Climbing Algorithm](https://adventofcode.com/2022/day/12) | ⭕⭕ | -
 13 - [Distress Signal](https://adventofcode.com/2022/day/13) | ⭐⭐ [13.py](/13/13.py) | [Blog post](https://blog.edoardob.im/day-13-distress-signal/) 
 14 - [Regolith Reservoir](https://adventofcode.com/2022/day/14) | ⭕⭕ | [Blog post](https://blog.edoardob.im/day-14-regolith-reservoir/)
-15 - [Beacon Exclusion Zone](https://adventofcode.com/2022/day/15) | ⭐⭐ [15.py](/15/15.py) | [Blog post](https://blog.edoardob.im/blog/?q=aoc22)
+15 - [Beacon Exclusion Zone](https://adventofcode.com/2022/day/15) | ⭐⭐ [15.py](/15/15.py) | -
