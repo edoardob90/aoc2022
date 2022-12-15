@@ -38,3 +38,4 @@ Day | Solution | Notes
 12 - [Hill Climbing Algorithm](https://adventofcode.com/2022/day/12) | ⭕⭕ | 
 13 - [Distress Signal](https://adventofcode.com/2022/day/13) | ⭐⭐ [13.py](/13/13.py) | [Blog post](https://blog.edoardob.im/day-13-distress-signal/) 
 14 - [Regolith Reservoir](https://adventofcode.com/2022/day/14) | ⭕⭕ | [Blog post](https://blog.edoardob.im/day-14-regolith-reservoir/)
+15 - [Beacon Exclusion Zone](https://adventofcode.com/2022/day/15) | [15.py](/15/15.py) | [Blog post](https://edobld.me) 
