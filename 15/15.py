@@ -98,8 +98,6 @@ def part2(data):
     # M = 20 # example
     M = 4_000_000
     for Y in range(M + 1):
-        if Y % 100_000 == 0:
-            print(Y)
 
         intervals = []
 
