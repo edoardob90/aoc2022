@@ -43,3 +43,4 @@ Day | Solution | Notes | Langs
 16 - [Proboscidea Volcanium](https://adventofcode.com/2022/day/16) | ⭕⭕ | - |
 17 - [Pyroclastic Flow](https://adventofcode.com/2022/day/17) | ⭕⭕ | - |
 18 - [Boiling Boulders](https://adventofcode.com/2022/day/18) | ⭐⭐ [18.py](/18/18.py) | - | 🐍
+19 - [Not Enough Minerals](https://adventofcode.com/2022/day/19) | ⭕⭕ | - | 
