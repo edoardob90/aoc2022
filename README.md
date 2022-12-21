@@ -15,7 +15,7 @@ I will mostly use Python to solve the puzzles. Just for fun, I might also try to
 
 - `.py` links to my Python solution (indicated with 🐍)
 
-- `.wls` links to a Wolframscript file (indicated with 🐺). Needs an <a href="https://www.wolfram.com/wolframscript/">intepreter</a> to run
+- `.wls` links to a Wolfram Script file (indicated with 🐺). You will need an <a href="https://www.wolfram.com/wolframscript/">intepreter</a> to run. On macOS/Linux with `brew`/`linuxbrew`, you can install the Wolfram Engine with `brew install wolfram-engine`. Then, you can simply execute any of the `*.wls` file as a normal script, e.g., `./21.wls < input.txt`
 
 </p>
 </details>
