@@ -48,3 +48,4 @@ Day | Solution | Notes | Langs
 21 - [Monkey Math](https://adventofcode.com/2022/day/21) | ⭐⭐ [21.wls](/21/21.wls), [21.py](/21/21.py) | - | 🐍 🐺 
 22 - [Monkey Map](https://adventofcode.com/2022/day/22) | ⭕⭕ | - | 
 23 - [Unstable Diffusion](https://adventofcode.com/2022/day/23) | ⭕⭕ | - | 
+24 - [Blizzard Basin](https://adventofcode.com/2022/day/24) | ⭕⭕ | - | 
