@@ -7,7 +7,7 @@ import pathlib
 import sys
 
 ## Third-party
-# from codetiming import Timer
+from codetiming import Timer
 
 
 def parse_data(puzzle_input):
@@ -16,6 +16,7 @@ def parse_data(puzzle_input):
 
 
 # @Timer(name="Part 1", text="{name}: {milliseconds:.1f} ms")
+# ~2 ms
 def part1(data):
     """Solve part 1"""
     # convert to decimal and calculate the total
@@ -29,8 +30,7 @@ def part1(data):
     # convert to SNAFU
     result = ""
     while total:
-        r = total % 5
-        total //= 5
+        total, r = divmod(total, 5)
 
         if r <= 2:
             result = str(r) + result
