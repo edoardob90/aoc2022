@@ -49,3 +49,4 @@ Day | Solution | Notes | Langs
 22 - [Monkey Map](https://adventofcode.com/2022/day/22) | ⭕⭕ | - | 
 23 - [Unstable Diffusion](https://adventofcode.com/2022/day/23) | ⭐⭐ [23.py](/23/23.py) | - | 🐍
 24 - [Blizzard Basin](https://adventofcode.com/2022/day/24) | ⭕⭕ | - | 
+25 - [Full of Hot Air](https://adventofcode.com/2022/day/25) | ⭕⭕ | - | 
