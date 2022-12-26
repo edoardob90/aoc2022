@@ -38,7 +38,7 @@ def part1(data):
             # if the remainder is > 2, we subtract 5 and add it to the next digit
             # "next" means with a higher power of the base
             # example in base 10: we could write 21 as "1(11)", but 11 is > 10
-            # so we subtract 10 and add it to the tenth = 2 * 10 + (11 - 10) = 21
+            # so we subtract 10 and increment by 1 the tens digit = 2 * 10 + (11 - 10) = 21
             result = "   =-"[r] + result
             total += 1
 
