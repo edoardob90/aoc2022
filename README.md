@@ -44,7 +44,7 @@ Day | Solution | Notes | Langs
 17 - [Pyroclastic Flow](https://adventofcode.com/2022/day/17) | ⭕⭕ | - |
 18 - [Boiling Boulders](https://adventofcode.com/2022/day/18) | ⭐⭐ [18.py](/18/18.py) | - | 🐍
 19 - [Not Enough Minerals](https://adventofcode.com/2022/day/19) | ⭐⭐ [19.py](/19/19.py) | - | 🐍
-20 - [Grove Positioning System](https://adventofcode.com/2022/day/20) | ⭕⭕ | - | 
+20 - [Grove Positioning System](https://adventofcode.com/2022/day/20) | ⭐⭐ [20.py](/20/20.py) | - | 🐍
 21 - [Monkey Math](https://adventofcode.com/2022/day/21) | ⭐⭐ [21.wls](/21/21.wls), [21.py](/21/21.py) | - | 🐍 🐺 
 22 - [Monkey Map](https://adventofcode.com/2022/day/22) | ⭕⭕ | - | 
 23 - [Unstable Diffusion](https://adventofcode.com/2022/day/23) | ⭐⭐ [23.py](/23/23.py) | - | 🐍

@@ -1,6 +1,9 @@
 *.fish
 *.sh
 .DS_Store
+*.png
+*.jpg
+*.jpeg
 
 __pycache__
 
